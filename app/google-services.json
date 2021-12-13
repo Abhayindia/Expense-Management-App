@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "436512616830",
+    "project_id": "small-change-ac678",
+    "storage_bucket": "small-change-ac678.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436512616830:android:c0630a6c1b0a51664d032f",
+        "android_client_info": {
+          "package_name": "id.ac.umn.effendi.andrio.smallchange"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436512616830-dlodqmm1j6bf72ng5r00s03cbp4k83n3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChprqRBcaXwOxTw6eOMPA6PsJBb3kj4q4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436512616830-dlodqmm1j6bf72ng5r00s03cbp4k83n3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

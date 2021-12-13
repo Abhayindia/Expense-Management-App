@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SignUp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="50dp">
+
+        <TextView
+            android:id="@+id/tvEmailSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:gravity="center"
+            android:text="E-mail"
+            android:textColor="@color/biru"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/editEmailSignUpWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeWidthFocused="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvEmailSignUp">
+
+            <EditText
+                android:id="@+id/editEmailSignUp"
+                android:inputType="textEmailAddress"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10sp"
+                android:paddingStart="18sp"
+                android:paddingEnd="18sp"
+                android:background="@drawable/bordered_edit_text"
+                android:textColor="@color/biru"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvEmailSignUp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:id="@+id/tvUsernameSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Username"
+            android:textColor="@color/biru"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/editEmailSignUpWrapper" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/editUsernameSignUpWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeWidthFocused="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvUsernameSignUp">
+
+            <EditText
+                android:id="@+id/editUsernameSignUp"
+                android:inputType="textPersonName"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10sp"
+                android:paddingStart="18sp"
+                android:paddingEnd="18sp"
+                android:background="@drawable/bordered_edit_text"
+                android:textColor="@color/biru"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvUsernameSignUp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tvPasswordSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Password"
+            android:textColor="@color/biru"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editUsernameSignUpWrapper" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/editPasswordSignUpWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeWidthFocused="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvPasswordSignUp">
+
+            <EditText
+                android:id="@+id/editPasswordSignUp"
+                android:inputType="textPassword"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10sp"
+                android:paddingStart="18sp"
+                android:paddingEnd="18sp"
+                android:background="@drawable/bordered_edit_text"
+                android:textColor="@color/biru"
+                app:layout_constraintTop_toBottomOf="@+id/tvPasswordSignUp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:id="@+id/btnSignUp"
+            android:layout_height="55dp"
+            android:fontFamily="@font/bold"
+            android:text="Sign Up"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:cornerRadius="18dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editPasswordSignUpWrapper" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

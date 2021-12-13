@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Income">
+
+    <ImageView
+        android:id="@+id/backgroundBoxIncome"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:translationY="300dp"
+        android:alpha="0"
+        android:background="@drawable/bordered_box2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewIncome"
+        android:layout_width="match_parent"
+        android:layout_height="526dp"
+        android:alpha="0"
+        android:translationY="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout3" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:background="@drawable/ic_wave_03"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/PageTitleIncome"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:translationY="-130dp"
+        android:alpha="0"
+        android:background="@drawable/upper_box4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="170dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_income_icon_17"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Spinner
+        android:id="@+id/filterIncome"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:alpha="0"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginEnd="42dp"
+        android:background="@drawable/style_spinner"
+        android:dropDownVerticalOffset="40dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:popupBackground="@drawable/rounded_box"
+        android:spinnerMode="dropdown"
+        app:layout_constraintTop_toBottomOf="@+id/PageTitleIncome" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddIncome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:layout_marginEnd="26dp"
+        android:translationY="100dp"
+        android:alpha="0"
+        app:fabSize="auto"
+        app:elevation="5dp"
+        app:backgroundTint="@color/biru"
+        android:src="@drawable/ic_baseline_add_24"
+        app:tint="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView10" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
