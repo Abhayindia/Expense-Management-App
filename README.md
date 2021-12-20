@@ -25,3 +25,15 @@ Expense Management App for CSE 4002 Mobile Application Development
 **Prakram Kumar**
 
 - [Profile]( "Parakram Kumar")
+
+## Functionalities
+
+- SignUp
+- SignIn
+- Profile Picture Update
+- Reset Password
+- Income Update with note
+- Outcome Update with note
+- Dashboard
+- Transaction History
+- Expenditure Pie Graph
