@@ -37,3 +37,8 @@ Expense Management App for CSE 4002 Mobile Application Development
 - Dashboard
 - Transaction History
 - Expenditure Pie Graph
+
+## Vedio Depicting the Functionalities of the project
+
+https://user-images.githubusercontent.com/53985942/146969817-907db77b-29d6-456c-8e63-de913c97809a.mp4
+
