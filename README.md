@@ -37,6 +37,9 @@ Expense Management App for CSE 4002 Mobile Application Development
 - Dashboard
 - Transaction History
 - Expenditure Pie Graph
+- Profile Picture saved in Firebase Database
+- Transaction History saved in Firebase Database
+- Change Password 
 
 ## Vedio Depicting the Functionalities of the project
 
